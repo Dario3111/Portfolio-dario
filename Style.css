@@ -1,5 +1,5 @@
  body{
-      background-color: #4A4444;
+      background-color: rgba(60, 56, 56, 1);
       min-height: 100vh;
       min-width: 100vh;
       margin-top: 294px
@@ -21,7 +21,7 @@
 .dariol{
       color: #ffffff;
       font-family: Anton, sans-serif;
-      font-size: 32px;
+      font-size: 36px;
       font-style: normal;
       font-weight: 400;
       line-height: normal;
@@ -48,12 +48,12 @@
       line-height: normal;
       text-decoration: none;
       color: white;
-      border-width: 1px;
-      border-style: solid;
-      border-color: #F5C9B5;
       }
 
-     /*ESPACIADO ENTRE BOTONES*/
+ 
+.me a:hover{
+      background-color: #bdbdbd;
+      }    
      
 
 
@@ -74,10 +74,12 @@
       line-height: normal;
       text-decoration: none;
       color: white;
-      border-width: 1px;
-      border-style: solid;
-      border-color: #F5C9B5;
       }
+
+ 
+.work a:hover {
+      background-color: #bdbdbd;
+      }     
 
 
 .service a {
@@ -97,15 +99,15 @@
       font-weight: 400;
       line-height: normal;
       text-decoration: none;
-      color: white;
-      border-width: 1px;
-      border-style: solid;
-      border-color: #F5C9B5;
-     
+      color: white;  
       }
 
-
- .contact a {
+.service a:hover {
+      background-color: #bdbdbd;
+}
+ 
+ 
+.contact a {
       display: flex;
       width: 154px;
       height: 43px;
@@ -123,42 +125,58 @@
       line-height: normal;
       text-decoration: none;
       color: white;
-      border-width: 1px;
-      border-style: solid;
-      border-color: #F5C9B5;
       } 
+
+ .contact a:hover {
+            background-color: #bdbdbd;
+      }
+       
      
-     
+ 
+.saludo {
+       color: #FFF;
+       font-family: Manrope;
+       font-size: 20px;
+       font-style: normal;
+       font-weight: 300;
+       line-height: 44px;
+       display: flex;
+       justify-content: space-around;
+       }
+
+ .cuadro1 {
+      display: flex;
+      flex-direction: column;
+ }     
+
+ .redes {
+      margin-top: 30%;
+      display: grid;
+      grid-template-columns: repeat(5,1fr);
+      }
+ 
+
+
+
+
  .saludo  h1{
-      color: white;
+      color: rgba(255, 255, 255, 1);
       font-size: 40px;
       font-family: Anton;
       font-weight: 400;
-      word-wrap: break-word;
-      margin-left: 99px;
-      }    
- 
- .saludo p{
-      color: white;
-      font-size: 20px;
-      font-family: Manrope;
-      font-weight: 300;
-      line-height: 44px;
-      word-wrap: break-word;
-      margin-left: 99px;
+       }    
+
+
+
+.saludo p {
+      color:  rgba(255, 255, 255, 1);
+      line-height: 1.55 ;
       }
 
 
-.fotod3{
-    float: right;
-    margin-top: -501px;
-    margin-right: 90px;
-    border-radius: 10px;
-    }
 
-
-
- .boton-contacto2 a {
+  #contacto2 a{
+      color: #4A4444;
       width: 150px;
       height: 48px;
       padding: 10px 32px;
@@ -167,24 +185,20 @@
       align-items: center;
       border-radius: 10px;
       background: #FFD1BC;
-      color:#4A4444;
       font-family: Anton;
-      font-size: 18px;
       font-style: normal;
       font-weight: 400;
       text-decoration: none;
-      margin-left: 99px;
       margin-top: 90px;
       }
+   
+      
+.redes{
+      opacity: 0.5;
+}
+    
 
- 
-.social{ 
-       display: flex;
-       flex-direction: row;
-       margin-left: 103px;
-       gap: 10px;
-       margin-top: 90px;
-       }
+       
 
 
 
@@ -197,65 +211,74 @@
        }
 
 
+.about {
+        display: flex;
+        justify-content: right;
+       }
+
+
 .titulo-s-mi {
        color: #ffffff;
-       color: #FFF;
        font-family: Anton;
        font-size: 36px;
        font-style: normal;
        font-weight: 400;
        line-height: normal;
-       margin-left: 100px;
-       margin-top: 250px;
+       margin-top: 100px;
+       position: absolute;
+       left: 99px;
        } 
 
 
 
-.S-sobre-mi {
-       display: flex;
+.art   {
+       margin-top: 15%;
+       position: absolute;
+       left: 99px;
        width: 513px;
        height: 601px;
-       padding-top: 10px;
-       align-items: flex-start;
-       gap: 10px;
-       flex-shrink: 0;
        border-radius: 10px;
        border: 1px solid rgba(255, 229, 228, 0.80);
-       margin-top: 80px;
-       margin-left: 99px;
-       
+       color:  rgba(255, 255, 255, 1);
+       font-family: Manrope;
+       font-size: 18px;
+       font-style: normal;
+       line-height: 30px ;
+       font-weight: 300;
        }
+       
+       
+ .parrafo-2 {
+         margin-top: 9%;
+         margin-bottom: 9%;
+         margin-left: 9%;
+         margin-right: 9%;
+       }      
+    
+    
+       
   
- 
- .descripcion-sobre-mi{
-     
-      color: #FFF;
-      font-family: Manrope;
-      font-size: 20px;
-      font-style: normal;
-      margin-top: 50px;
-      margin-left: 64px;
-      margin-right: 76px;
-      line-height: 1.55 ;
-      text-align: justify;
-      }
+
 
 
  .habilidades {
-      display: flex;
-      justify-content: end;
-      margin-top: -650px;
-      margin-right: 99px;
-      
-       }     
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 12%;
+ }
 
 
 .habilidades-titulo{
-      font-size: 30px;
-      font-family: Anton;
-      margin-right: -260px;
-      color: white;
-      margin-bottom: 450px;
+      color: #ffffff;
+       font-family: Anton;
+       font-size: 36px;
+       font-style: normal;
+       font-weight: 400;
+       line-height: normal;
+       margin-right: 40%;
+     
+
 }
 
  .habilidades--ul {
@@ -266,10 +289,37 @@
        align-content: center;
        gap: 28px;
        flex-wrap: wrap;
+      
        }
       
+  
+ .B1 {
+      display: flex;
+padding: 16px 24px;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+border-radius: 10px;
+border: 1px solid var(--Color-botones, #F2E2DB);
+background-color: rgba(60, 56, 56, 1);
+color:rgba(255, 255, 255, 1);
+}
 
-
+.B1:hover {
+      background-color: #F2E2DB; 
+      
+  }
+      
+.B2 {
+      display: flex;
+padding: 16px 24px;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+border: 1px solid var(--Color-botones, #F2E2DB);
+background-color: rgba(60, 56, 56, 1);
+color:rgba(255, 255, 255, 1);
+}
   
       
       

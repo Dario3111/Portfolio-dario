@@ -203,7 +203,7 @@
 
 
 
-.separador{
+.separador1{
        width: 100%;
        height: 2px;
        background-color: #FFD1BC;
@@ -312,26 +312,282 @@ color:rgba(255, 255, 255, 1);
       
 .B2 {
       display: flex;
+      padding: 16px 24px;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10px;
+      border: 1px solid var(--Color-botones, #F2E2DB);
+      background-color: rgba(60, 56, 56, 1);
+      color:rgba(255, 255, 255, 1);
+      }
+  
+ 
+      
+.B2:hover:hover {
+      background-color: #F2E2DB; 
+      }
+           
+      
+.B3 {
+      display: flex;
 padding: 16px 24px;
 justify-content: center;
 align-items: center;
 border-radius: 10px;
 border: 1px solid var(--Color-botones, #F2E2DB);
 background-color: rgba(60, 56, 56, 1);
-color:rgba(255, 255, 255, 1);
+      color:rgba(255, 255, 255, 1);
+}      
+
+
+.B3:hover {
+      background-color: #F2E2DB; 
 }
-  
+
+
+.B4 {
+      display: flex;
+padding: 16px 24px;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+border: 1px solid var(--Color-botones, #F2E2DB);
+background-color: rgba(60, 56, 56, 1);
+      color:rgba(255, 255, 255, 1);
+}
+
+
+.B4:hover{
+      background-color: #F2E2DB; 
+}
+
+
+.B5 {
+      display: flex;
+padding: 16px 24px;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+border: 1px solid var(--Color-botones, #F2E2DB);
+background-color: rgba(60, 56, 56, 1);
+      color:rgba(255, 255, 255, 1);
+}
+
+
+.B5:hover{
+      background-color: #F2E2DB; 
+}
+
+
+.B6 {
+      display: flex;
+padding: 16px 24px;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+border: 1px solid var(--Color-botones, #F2E2DB);
+background-color: rgba(60, 56, 56, 1);
+      color:rgba(255, 255, 255, 1);
+}
+
+
+.B6:hover{
+      background-color: #F2E2DB; 
+}
+
+
+.B7 {
+      display: flex;
+padding: 16px 24px;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+border: 1px solid var(--Color-botones, #F2E2DB);
+background-color: rgba(60, 56, 56, 1);
+      color:rgba(255, 255, 255, 1);
+}
+
+
+.B7:hover{
+      background-color: #F2E2DB; 
+}
+
+
+.B8{
+      display: flex;
+padding: 16px 24px;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+border: 1px solid var(--Color-botones, #F2E2DB);
+background-color: rgba(60, 56, 56, 1);
+      color:rgba(255, 255, 255, 1);
+}
+
+
+.B8:hover{
+      background-color: #F2E2DB; 
+}
+
+
+.B9{
+      display: flex;
+padding: 16px 24px;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+border: 1px solid var(--Color-botones, #F2E2DB);
+background-color: rgba(60, 56, 56, 1);
+      color:rgba(255, 255, 255, 1);
+}
+
+
+.B9:hover{
+      background-color: #F2E2DB; 
+}
+
+
+
+
+.B10 {
+      display: flex;
+padding: 16px 24px;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+border: 1px solid var(--Color-botones, #F2E2DB);
+background-color: rgba(60, 56, 56, 1);
+      color:rgba(255, 255, 255, 1);
+}
+
+
+.B10:hover{
+      background-color: #F2E2DB; 
+}
+
+
+
+.B11 {
+      display: flex;
+padding: 16px 24px;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+border: 1px solid var(--Color-botones, #F2E2DB);
+background-color: rgba(60, 56, 56, 1);
+      color:rgba(255, 255, 255, 1);
+}
+
+
+.B11:hover{
+      background-color: #F2E2DB; 
+}
+
+
+
+.B12 {
+      display: flex;
+padding: 16px 24px;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+border: 1px solid var(--Color-botones, #F2E2DB);
+background-color: rgba(60, 56, 56, 1);
+      color:rgba(255, 255, 255, 1);
+}
+
+
+.B12:hover{
+      background-color: #F2E2DB; 
+}
+
+
+.B13{
+      display: flex;
+padding: 16px 24px;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+border: 1px solid var(--Color-botones, #F2E2DB);
+background-color: rgba(60, 56, 56, 1);
+      color:rgba(255, 255, 255, 1);
+}
+
+
+.B13:hover{
+      background-color: #F2E2DB;
+}
+
+
+.B14{
+      display: flex;
+padding: 16px 24px;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+border: 1px solid var(--Color-botones, #F2E2DB);
+background-color: rgba(60, 56, 56, 1);
+      color:rgba(255, 255, 255, 1);
+}
+
+
+.B14:hover{
+      background-color: #F2E2DB;
+}
+
+
+.B15{
+      display: flex;
+padding: 16px 24px;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+border: 1px solid var(--Color-botones, #F2E2DB);
+background-color: rgba(60, 56, 56, 1);
+      color:rgba(255, 255, 255, 1);
+}
+
+
+.B15:hover{
+      background-color: #F2E2DB;
+}
+
+
+
+
+
+.separador2{
+      width: 100%;
+      height: 2px;
+      background-color: #FFD1BC;
+      margin-top: 340px;
+      }
+
+
+ .job h1{
+      color: #FFF;
+font-family: Anton;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 12%;
+margin-left: 99px;
+}
+
+
+.jobpic { 
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      margin-top: 12%;
       
       
 
-
-
-
-
-
-
-
-
+      color: #bdbdbd;
+}
 /*cambio de color de texto y subrrayado anulado, ordenar mas adelante y colocar en posicion correcta*/
   footer a{color: white; text-decoration: none;}   
 

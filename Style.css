@@ -4,8 +4,7 @@
       min-width: 100vh;
       margin-top: 294px
       }
-
-     
+    
 /*PROBANDO JUSTIFY-CONTENT*/
 .menu {
       display: flex;
@@ -212,28 +211,30 @@
 
 
 .about {
-        display: flex;
-        justify-content: right;
+        display: grid;
+        align-items: center; /*ver las cajas*/
        }
 
 
 .titulo-s-mi {
-       color: #ffffff;
+       color:#f7ebeb;
        font-family: Anton;
        font-size: 36px;
        font-style: normal;
        font-weight: 400;
        line-height: normal;
-       margin-top: 100px;
-       position: absolute;
-       left: 99px;
+       margin: 0;
+       padding: 0;
+       box-sizing: 0;
+      
+       
        } 
 
 
 
 .art   {
        margin-top: 15%;
-       position: absolute;
+       
        left: 99px;
        width: 513px;
        height: 601px;
@@ -587,6 +588,26 @@ margin-left: 99px;
       }
 
 
+       .buttonjob {
+            color: #4A4444;
+            width: 150px;
+            height: 48px;
+            padding: 10px 32px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            background: #FFD1BC;
+            font-family: Anton;
+            font-style: normal;
+            font-weight: 400;
+            text-decoration: none;
+            margin-top: 90px;
+            margin-left: 99px;
+
+
+
+      }
 .
 /*cambio de color de texto y subrrayado anulado, ordenar mas adelante y colocar en posicion correcta*/
   footer a{color: white; text-decoration: none;}   

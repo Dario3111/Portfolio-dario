@@ -1,7 +1,5 @@
  body{
       background-color: rgba(60, 56, 56, 1);
-      min-height: 100vh;
-      min-width: 100vh;
       margin-top: 294px
       }
     
@@ -135,7 +133,7 @@
 .saludo {
        color: #FFF;
        font-family: Manrope;
-       font-size: 20px;
+       font-size: 22px;
        font-style: normal;
        font-weight: 300;
        line-height: 44px;
@@ -211,24 +209,24 @@
 
 
 .about {
-        display: grid;
-        align-items: center; /*ver las cajas*/
+      margin-top: 15%;
+      display: flex;
+      justify-content: space-around;
        }
 
 
 .titulo-s-mi {
+      margin-bottom: 10%;
        color:#f7ebeb;
        font-family: Anton;
        font-size: 36px;
        font-style: normal;
        font-weight: 400;
        line-height: normal;
-       margin: 0;
-       padding: 0;
-       box-sizing: 0;
+       }
       
        
-       } 
+        
 
 
 
@@ -242,7 +240,7 @@
        border: 1px solid rgba(255, 229, 228, 0.80);
        color:  rgba(255, 255, 255, 1);
        font-family: Manrope;
-       font-size: 18px;
+       font-size: 22px;
        font-style: normal;
        line-height: 30px ;
        font-weight: 300;
@@ -263,21 +261,22 @@
 
 
  .habilidades {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 12%;
+  margin-top: 6%;
+  
  }
 
 
 .habilidades-titulo{
+      margin-left: 10%;
+      margin-bottom: 25%;
       color: #ffffff;
        font-family: Anton;
        font-size: 36px;
        font-style: normal;
        font-weight: 400;
        line-height: normal;
-       margin-right: 40%;
+      
+       
      
 
 }
@@ -573,7 +572,8 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 margin-top: 12%;
-margin-left: 99px;
+display: flex;
+justify-content: center;
 }
 
 

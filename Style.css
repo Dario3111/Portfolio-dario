@@ -604,10 +604,21 @@ justify-content: center;
             text-decoration: none;
             margin-top: 90px;
             margin-left: 99px;
+            }
 
 
-
-      }
+            .separador3{
+                  width: 100%;
+                  height: 2px;
+                  background-color: #FFD1BC;
+                  margin-top: 200px;
+                  }
+           
+.s-servicios{
+      width: 100%;
+      height: 800px;
+      background-color: aqua;
+}
 
 /*cambio de color de texto y subrrayado anulado, ordenar mas adelante y colocar en posicion correcta*/
   footer a{color: white; text-decoration: none;}   

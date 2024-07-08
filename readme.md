@@ -30,4 +30,4 @@ El proyecto tiene la siguiente estructura de archivos y carpetas:
 
 ## Autor
 
-Dario Pcheco
+Dario Pacheco

@@ -8,7 +8,8 @@ Este proyecto es un primer portafolio personal creado a partir de un diseño pro
 
 Aquí hay una captura de pantalla del diseño en Figma:
 
-![Diseño en Figma](imag/Screenshot FIGMA.png)
+![Screenshot FIGMA](https://github.com/Dario3111/Portfolio-dario/assets/174448919/274f5231-efa1-4530-afb4-a3d99b44815c)
+hot FIGMA.png)
 
 ## Tecnologías Utilizadas
 
@@ -17,6 +18,7 @@ Aquí hay una captura de pantalla del diseño en Figma:
 
 ## Estructura del Proyecto
 
+
 El proyecto tiene la siguiente estructura de archivos y carpetas:
 
 - `index.html`: Archivo principal que contiene la estructura HTML del portafolio.
@@ -24,7 +26,7 @@ El proyecto tiene la siguiente estructura de archivos y carpetas:
 - `img/`: Carpeta que contiene todas las imágenes utilizadas en el proyecto.
 - `README.md`: Archivo de documentación del proyecto.
 
-![Portafolio terminado](imag/screenshot web dario completa.png)
+![screenshot web dario completa](https://github.com/Dario3111/Portfolio-dario/assets/174448919/c5608efa-95a2-4ab0-bfd0-8adebbbca621)
 
 ## Autor
 

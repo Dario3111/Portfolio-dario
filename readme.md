@@ -26,7 +26,8 @@ El proyecto tiene la siguiente estructura de archivos y carpetas:
 - `img/`: Carpeta que contiene todas las imágenes utilizadas en el proyecto.
 - `README.md`: Archivo de documentación del proyecto.
 
-![screenshot web dario completa](https://github.com/Dario3111/Portfolio-dario/assets/174448919/c5608efa-95a2-4ab0-bfd0-8adebbbca621)
+![webdario](https://github.com/Dario3111/Portfolio-dario/assets/174448919/773b4669-4221-4182-b55e-76cae4c76969)
+
 
 ## Autor
 
